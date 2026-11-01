@@ -1,0 +1,127 @@
+{
+  "XGBoost_Attinger->Kannan": {
+    "accuracy": 0.03282275711159737,
+    "f1_macro": 0.0211864406779661,
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        262,
+        180,
+        15
+      ]
+    ],
+    "train_source": "Attinger",
+    "test_source": "Kannan",
+    "train_size": 205,
+    "test_size": 457
+  },
+  "LightGBM_Attinger->Kannan": {
+    "accuracy": 0.0350109409190372,
+    "f1_macro": 0.02255109231853418,
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        256,
+        185,
+        16
+      ]
+    ],
+    "train_source": "Attinger",
+    "test_source": "Kannan",
+    "train_size": 205,
+    "test_size": 457
+  },
+  "RandomForest_Attinger->Kannan": {
+    "accuracy": 0.037199124726477024,
+    "f1_macro": 0.02390998593530239,
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        434,
+        6,
+        17
+      ]
+    ],
+    "train_source": "Attinger",
+    "test_source": "Kannan",
+    "train_size": 205,
+    "test_size": 457
+  },
+  "LogisticRegression_Attinger->Kannan": {
+    "accuracy": 0.3435448577680525,
+    "f1_macro": 0.17046688382193267,
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        230,
+        70,
+        157
+      ]
+    ],
+    "train_source": "Attinger",
+    "test_source": "Kannan",
+    "train_size": 205,
+    "test_size": 457
+  },
+  "SVM_Attinger->Kannan": {
+    "accuracy": 0.0,
+    "f1_macro": 0.0,
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        448,
+        9,
+        0
+      ]
+    ],
+    "train_source": "Attinger",
+    "test_source": "Kannan",
+    "train_size": 205,
+    "test_size": 457
+  }
+}

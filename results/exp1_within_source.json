@@ -1,0 +1,102 @@
+{
+  "XGBoost": {
+    "accuracy": 0.9223300970873787,
+    "f1_macro": 0.8637839152629431,
+    "f1_weighted": 0.922487348333273,
+    "precision_macro": 0.8664616874221028,
+    "recall_macro": 0.8612518088806197,
+    "confusion_matrix": [
+      [
+        65,
+        5,
+        1
+      ],
+      [
+        4,
+        56,
+        19
+      ],
+      [
+        0,
+        19,
+        449
+      ]
+    ],
+    "classification_report": "              precision    recall  f1-score   support\n\n     gunshot       0.94      0.92      0.93        71\n      impact       0.70      0.71      0.70        79\nlow_velocity       0.96      0.96      0.96       468\n\n    accuracy                           0.92       618\n   macro avg       0.87      0.86      0.86       618\nweighted avg       0.92      0.92      0.92       618\n"
+  },
+  "RandomForest": {
+    "accuracy": 0.9174757281553398,
+    "f1_macro": 0.8535813804571662,
+    "f1_weighted": 0.9173896281095413,
+    "precision_macro": 0.8593372149580087,
+    "recall_macro": 0.8481181546344677,
+    "confusion_matrix": [
+      [
+        64,
+        6,
+        1
+      ],
+      [
+        4,
+        54,
+        21
+      ],
+      [
+        0,
+        19,
+        449
+      ]
+    ],
+    "classification_report": "              precision    recall  f1-score   support\n\n     gunshot       0.94      0.90      0.92        71\n      impact       0.68      0.68      0.68        79\nlow_velocity       0.95      0.96      0.96       468\n\n    accuracy                           0.92       618\n   macro avg       0.86      0.85      0.85       618\nweighted avg       0.92      0.92      0.92       618\n"
+  },
+  "LogisticRegression": {
+    "accuracy": 0.8980582524271845,
+    "f1_macro": 0.82543452695132,
+    "f1_weighted": 0.9004324839008069,
+    "precision_macro": 0.8119050406721641,
+    "recall_macro": 0.8411765990657059,
+    "confusion_matrix": [
+      [
+        60,
+        5,
+        6
+      ],
+      [
+        7,
+        59,
+        13
+      ],
+      [
+        6,
+        26,
+        436
+      ]
+    ],
+    "classification_report": "              precision    recall  f1-score   support\n\n     gunshot       0.82      0.85      0.83        71\n      impact       0.66      0.75      0.70        79\nlow_velocity       0.96      0.93      0.94       468\n\n    accuracy                           0.90       618\n   macro avg       0.81      0.84      0.83       618\nweighted avg       0.90      0.90      0.90       618\n"
+  },
+  "SVM": {
+    "accuracy": 0.8980582524271845,
+    "f1_macro": 0.8279256067176428,
+    "f1_weighted": 0.9002727654762072,
+    "precision_macro": 0.8196500336093591,
+    "recall_macro": 0.8397503198715537,
+    "confusion_matrix": [
+      [
+        57,
+        6,
+        8
+      ],
+      [
+        4,
+        62,
+        13
+      ],
+      [
+        7,
+        25,
+        436
+      ]
+    ],
+    "classification_report": "              precision    recall  f1-score   support\n\n     gunshot       0.84      0.80      0.82        71\n      impact       0.67      0.78      0.72        79\nlow_velocity       0.95      0.93      0.94       468\n\n    accuracy                           0.90       618\n   macro avg       0.82      0.84      0.83       618\nweighted avg       0.90      0.90      0.90       618\n"
+  }
+}

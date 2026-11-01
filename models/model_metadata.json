@@ -1,0 +1,87 @@
+{
+  "model_type": "CatBoost",
+  "hyperparameters": {
+    "iterations": 400,
+    "depth": 4,
+    "learning_rate": 0.05,
+    "l2_leaf_reg": 5,
+    "auto_class_weights": "SqrtBalanced"
+  },
+  "features": [
+    "axis_ratio_mean",
+    "axis_ratio_std",
+    "axis_ratio_max",
+    "area_mm2_mean",
+    "area_mm2_std",
+    "area_mm2_max",
+    "solidity_mean",
+    "solidity_std",
+    "solidity_max",
+    "eccentricity_mean",
+    "eccentricity_std",
+    "eccentricity_max",
+    "circularity_mean",
+    "circularity_std",
+    "circularity_max",
+    "stain_count",
+    "total_stained_area_mm2",
+    "stain_density_per_cm2",
+    "spatial_spread_x_std",
+    "spatial_spread_y_std",
+    "spatial_spread_total",
+    "nn_dist_mean_mm",
+    "nn_dist_std_mm",
+    "convex_hull_area_mm2",
+    "mean_orientation_deg",
+    "circular_variance",
+    "convergence_x",
+    "convergence_y",
+    "convergence_dispersion",
+    "has_convergence"
+  ],
+  "n_features": 30,
+  "classes": [
+    "gunshot",
+    "impact",
+    "low_velocity"
+  ],
+  "class_mapping": {
+    "0": "gunshot",
+    "1": "impact",
+    "2": "low_velocity"
+  },
+  "train_samples": 618,
+  "filtered_stain_count_0": 44,
+  "class_distribution": {
+    "gunshot": 71,
+    "impact": 79,
+    "low_velocity": 468
+  },
+  "cv_results": {
+    "accuracy": 0.9256,
+    "f1_macro": 0.8648,
+    "f1_weighted": 0.9271,
+    "per_class_f1": {
+      "gunshot": 0.8951,
+      "impact": 0.7349,
+      "low_velocity": 0.9644
+    },
+    "n_folds": 5,
+    "fold_metrics": {
+      "accuracy": [
+        0.9435,
+        0.8871,
+        0.9274,
+        0.9431,
+        0.9268
+      ]
+    }
+  },
+  "dataset_composition": {
+    "kannan": 425,
+    "attinger_impact": 79,
+    "attinger_gunshot": 55,
+    "attinger_lowvelocity": 43,
+    "ferrarini": 16
+  }
+}

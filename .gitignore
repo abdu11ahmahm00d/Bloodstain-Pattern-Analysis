@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Environment
+.env
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Agent/private config
+.opencode/
+.atl/
+.code-nexus/
+.ruff_cache/
+
+# Windows reserved device names (created by tooling)
+nul
+
+# Mask & inspection (large images)
+mask_review/
+inspection_results/
+
+# SHAP outputs (regenerated)
+shap_results/
+
+# Logs
+logs/
+
+# Local working material: manuscript, literature, talk deck, submission packets.
+# Kept on disk, not part of the repository.
+docs/
+paper/
+
+# Intermediate pipeline output
+debug/
+data/unified_manifest.csv
+# CatBoost training artefacts
+catboost_info/

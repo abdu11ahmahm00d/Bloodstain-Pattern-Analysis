@@ -1,0 +1,72 @@
+{
+ "XGBoost": {
+  "accuracy": 0.9133,
+  "f1": 0.9182,
+  "confusion_matrix": [
+   [
+    64,
+    7
+   ],
+   [
+    6,
+    73
+   ]
+  ]
+ },
+ "LightGBM": {
+  "accuracy": 0.9267,
+  "f1": 0.9325,
+  "confusion_matrix": [
+   [
+    63,
+    8
+   ],
+   [
+    3,
+    76
+   ]
+  ]
+ },
+ "RandomForest": {
+  "accuracy": 0.9267,
+  "f1": 0.9317,
+  "confusion_matrix": [
+   [
+    64,
+    7
+   ],
+   [
+    4,
+    75
+   ]
+  ]
+ },
+ "LogisticRegression": {
+  "accuracy": 0.8867,
+  "f1": 0.8903,
+  "confusion_matrix": [
+   [
+    64,
+    7
+   ],
+   [
+    10,
+    69
+   ]
+  ]
+ },
+ "SVM": {
+  "accuracy": 0.88,
+  "f1": 0.8816,
+  "confusion_matrix": [
+   [
+    65,
+    6
+   ],
+   [
+    12,
+    67
+   ]
+  ]
+ }
+}

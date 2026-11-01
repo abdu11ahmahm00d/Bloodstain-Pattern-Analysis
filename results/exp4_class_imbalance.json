@@ -1,0 +1,278 @@
+{
+  "XGBoost_weighted": {
+    "accuracy": 0.9093655589123867,
+    "f1_macro": 0.8376308627328869,
+    "f1_weighted": 0.9089156773039841,
+    "confusion_matrix": [
+      [
+        65,
+        5,
+        13
+      ],
+      [
+        4,
+        57,
+        18
+      ],
+      [
+        0,
+        20,
+        480
+      ]
+    ],
+    "strategy": "class_weights"
+  },
+  "RandomForest_weighted": {
+    "accuracy": 0.8806646525679759,
+    "f1_macro": 0.8134344442071407,
+    "f1_weighted": 0.8845246833185381,
+    "confusion_matrix": [
+      [
+        76,
+        5,
+        2
+      ],
+      [
+        2,
+        60,
+        17
+      ],
+      [
+        32,
+        21,
+        447
+      ]
+    ],
+    "strategy": "class_weights"
+  },
+  "LogisticRegression_weighted": {
+    "accuracy": 0.8474320241691843,
+    "f1_macro": 0.7750400890160375,
+    "f1_weighted": 0.8590934654195513,
+    "confusion_matrix": [
+      [
+        74,
+        7,
+        2
+      ],
+      [
+        9,
+        68,
+        2
+      ],
+      [
+        45,
+        36,
+        419
+      ]
+    ],
+    "strategy": "class_weights"
+  },
+  "SVM_weighted": {
+    "accuracy": 0.8595166163141994,
+    "f1_macro": 0.7927882850531128,
+    "f1_weighted": 0.8689385820598896,
+    "confusion_matrix": [
+      [
+        74,
+        6,
+        3
+      ],
+      [
+        6,
+        70,
+        3
+      ],
+      [
+        36,
+        39,
+        425
+      ]
+    ],
+    "strategy": "class_weights"
+  },
+  "XGBoost_SMOTE": {
+    "accuracy": 0.877643504531722,
+    "f1_macro": 0.806630506734565,
+    "f1_weighted": 0.8824551669809787,
+    "confusion_matrix": [
+      [
+        76,
+        6,
+        1
+      ],
+      [
+        4,
+        60,
+        15
+      ],
+      [
+        32,
+        23,
+        445
+      ]
+    ],
+    "strategy": "SMOTE"
+  },
+  "RandomForest_SMOTE": {
+    "accuracy": 0.8882175226586103,
+    "f1_macro": 0.8271639466766469,
+    "f1_weighted": 0.8925398733124255,
+    "confusion_matrix": [
+      [
+        77,
+        5,
+        1
+      ],
+      [
+        2,
+        64,
+        13
+      ],
+      [
+        32,
+        21,
+        447
+      ]
+    ],
+    "strategy": "SMOTE"
+  },
+  "LogisticRegression_SMOTE": {
+    "accuracy": 0.8444108761329305,
+    "f1_macro": 0.7713583590360842,
+    "f1_weighted": 0.8558312611662363,
+    "confusion_matrix": [
+      [
+        75,
+        5,
+        3
+      ],
+      [
+        10,
+        66,
+        3
+      ],
+      [
+        43,
+        39,
+        418
+      ]
+    ],
+    "strategy": "SMOTE"
+  },
+  "SVM_SMOTE": {
+    "accuracy": 0.8549848942598187,
+    "f1_macro": 0.7856779789327969,
+    "f1_weighted": 0.8645660513216812,
+    "confusion_matrix": [
+      [
+        72,
+        7,
+        4
+      ],
+      [
+        5,
+        69,
+        5
+      ],
+      [
+        32,
+        43,
+        425
+      ]
+    ],
+    "strategy": "SMOTE"
+  },
+  "XGBoost_subsample": {
+    "accuracy": 0.8746223564954683,
+    "f1_macro": 0.8135634836287325,
+    "f1_weighted": 0.8828740558613798,
+    "confusion_matrix": [
+      [
+        76,
+        6,
+        1
+      ],
+      [
+        5,
+        72,
+        2
+      ],
+      [
+        32,
+        37,
+        431
+      ]
+    ],
+    "strategy": "undersampling"
+  },
+  "RandomForest_subsample": {
+    "accuracy": 0.877643504531722,
+    "f1_macro": 0.8205793210477365,
+    "f1_weighted": 0.8854204495954845,
+    "confusion_matrix": [
+      [
+        75,
+        7,
+        1
+      ],
+      [
+        2,
+        75,
+        2
+      ],
+      [
+        32,
+        37,
+        431
+      ]
+    ],
+    "strategy": "undersampling"
+  },
+  "LogisticRegression_subsample": {
+    "accuracy": 0.8489425981873112,
+    "f1_macro": 0.7737402463419712,
+    "f1_weighted": 0.8597231141739812,
+    "confusion_matrix": [
+      [
+        70,
+        8,
+        5
+      ],
+      [
+        8,
+        69,
+        2
+      ],
+      [
+        40,
+        37,
+        423
+      ]
+    ],
+    "strategy": "undersampling"
+  },
+  "SVM_subsample": {
+    "accuracy": 0.8625377643504532,
+    "f1_macro": 0.7757357769763069,
+    "f1_weighted": 0.8704908839308235,
+    "confusion_matrix": [
+      [
+        65,
+        7,
+        11
+      ],
+      [
+        13,
+        65,
+        1
+      ],
+      [
+        26,
+        33,
+        441
+      ]
+    ],
+    "strategy": "undersampling"
+  }
+}

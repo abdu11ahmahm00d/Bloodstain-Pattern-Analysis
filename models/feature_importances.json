@@ -1,0 +1,122 @@
+[
+  {
+    "feature": "convergence_dispersion",
+    "importance": 16.66194239161372
+  },
+  {
+    "feature": "convergence_x",
+    "importance": 14.809270664880286
+  },
+  {
+    "feature": "convex_hull_area_mm2",
+    "importance": 11.48814503282801
+  },
+  {
+    "feature": "nn_dist_std_mm",
+    "importance": 5.182744162346158
+  },
+  {
+    "feature": "solidity_mean",
+    "importance": 4.242532986478182
+  },
+  {
+    "feature": "nn_dist_mean_mm",
+    "importance": 4.076608064101399
+  },
+  {
+    "feature": "convergence_y",
+    "importance": 4.061118969142368
+  },
+  {
+    "feature": "spatial_spread_y_std",
+    "importance": 3.208948841066125
+  },
+  {
+    "feature": "circularity_max",
+    "importance": 3.0862877284910164
+  },
+  {
+    "feature": "spatial_spread_total",
+    "importance": 3.0608906899107127
+  },
+  {
+    "feature": "circular_variance",
+    "importance": 2.859466794941896
+  },
+  {
+    "feature": "total_stained_area_mm2",
+    "importance": 2.76469406343227
+  },
+  {
+    "feature": "area_mm2_mean",
+    "importance": 2.68982353097551
+  },
+  {
+    "feature": "stain_count",
+    "importance": 2.5444555075477338
+  },
+  {
+    "feature": "stain_density_per_cm2",
+    "importance": 2.5210330851053993
+  },
+  {
+    "feature": "spatial_spread_x_std",
+    "importance": 1.8937117134244683
+  },
+  {
+    "feature": "circularity_mean",
+    "importance": 1.7162217608443404
+  },
+  {
+    "feature": "eccentricity_max",
+    "importance": 1.6089491525850583
+  },
+  {
+    "feature": "axis_ratio_max",
+    "importance": 1.5712994133784395
+  },
+  {
+    "feature": "area_mm2_std",
+    "importance": 1.4428949381773102
+  },
+  {
+    "feature": "eccentricity_mean",
+    "importance": 1.2449923101882916
+  },
+  {
+    "feature": "solidity_max",
+    "importance": 1.1623798512875099
+  },
+  {
+    "feature": "eccentricity_std",
+    "importance": 1.1384228651034483
+  },
+  {
+    "feature": "area_mm2_max",
+    "importance": 1.0596847709468817
+  },
+  {
+    "feature": "mean_orientation_deg",
+    "importance": 0.96537287519923
+  },
+  {
+    "feature": "axis_ratio_mean",
+    "importance": 0.9568951442640613
+  },
+  {
+    "feature": "circularity_std",
+    "importance": 0.7733458733390065
+  },
+  {
+    "feature": "solidity_std",
+    "importance": 0.5373073881406382
+  },
+  {
+    "feature": "has_convergence",
+    "importance": 0.3356184591181149
+  },
+  {
+    "feature": "axis_ratio_std",
+    "importance": 0.3349409711424048
+  }
+]
